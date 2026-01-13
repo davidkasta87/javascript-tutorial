@@ -1,0 +1,32 @@
+# Node modules
+node_modules/
+
+# Package lock files
+package-lock.json
+yarn.lock
+
+# TypeScript (not needed for JS tutorial)
+tsconfig.json
+*.d.ts
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local AI assistance files
+WARP.md
+
+# Logs
+*.log
+npm-debug.log*
+
+# Environment variables
+.env
+.env.local

@@ -25,6 +25,18 @@ Variable declarations, data types, and scope examples.
 - Comparison operators
 - Conditional execution flow
 
+**Example:**
+```javascript
+let edad = 18;
+let cantidad = "18";
+
+if (edad == cantidad) {
+  console.log("La condición es verdadera");
+} else {
+  console.log("La condición es falsa");
+}
+```
+
 ### Loops (Bucles)
 Loop constructs including `for` loops and iteration patterns.
 
@@ -34,11 +46,38 @@ Function declarations, parameters, return values, and practical usage.
 ### Arrays
 Array creation, manipulation, and iteration using traditional for loops.
 
+**Example:**
+```javascript
+const paises = ["México", "Argentina", "Ecuador", "Perú", "Colombia"];
+
+for (let i = 0; i < paises.length; i++) {
+  console.log("País: " + paises[i]);
+}
+```
+
 ### Objects (Objetos)
 - Object creation and properties
 - Object manipulation
 - Shallow copying techniques (`{...obj}`, `Object.assign()`)
 - Working with nested objects
+
+**Example:**
+```javascript
+const automovil = {
+  marca: "Ferrari",
+  color: "Rojo",
+  kilometraje: 1500,
+  radio: {
+    marca: "Sony",
+    soportaAndroidAuto: true,
+  },
+  adicionales: ["Cámara", "Kit herramientas"],
+};
+
+// Shallow copy
+const auto2 = Object.assign({}, automovil);
+auto2.marca = "Mazda";
+```
 
 ### Complete Example: ejercicio01.js
 A comprehensive invoice calculator demonstrating:
@@ -89,3 +128,11 @@ node bucles/forLoop.js
 5. Master **array/** for data collection handling
 6. Explore **Objetos/** for complex data structures
 7. Study **ejercicio01.js** to see concepts combined in practice
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Author
+
+David Castañeda
