@@ -1,0 +1,43 @@
+{
+  "name": "javascript-tutorial",
+  "version": "1.0.0",
+  "description": "Un repositorio completo de aprendizaje de JavaScript con ejemplos prácticos y ejercicios organizados por conceptos fundamentales.",
+  "main": "ejercicio01.js",
+  "scripts": {
+    "start": "node ejercicio01.js",
+    "example:variables": "echo 'Variables examples (see variables/ folder)'",
+    "example:conditionals": "node condicional/ejemploIF.js",
+    "example:loops": "node bucles/sentenciaFor.js",
+    "example:arrays": "node array/array.js",
+    "example:objects": "node Objetos/ejemplo01.js"
+  },
+  "keywords": [
+    "javascript",
+    "tutorial",
+    "aprendizaje",
+    "ejercicios",
+    "variables",
+    "funciones",
+    "arrays",
+    "objetos",
+    "bucles",
+    "condicionales",
+    "es6"
+  ],
+  "author": "David Castañeda",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tu-usuario/javascript-tutorial.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tu-usuario/javascript-tutorial/issues"
+  },
+  "homepage": "https://github.com/tu-usuario/javascript-tutorial#readme",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "typescript": "^5.9.3"
+  }
+}
